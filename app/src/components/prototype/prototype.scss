@@ -1,0 +1,77 @@
+@use "../../styles/partials/_mixins.scss" as *;
+@use "../../styles/partials/_variables.scss" as *;
+@use "../../styles/partials/typography.scss" as*;
+
+
+.prototype{
+    font-family: Overpass, sans-serif;
+    &__title{
+        padding-left: 15px;
+        font-weight: 600;
+    }
+
+    &__form{
+        padding-left: 15px;
+    }
+
+    &__search{
+        border-radius: 7px;
+        height: 40px;
+        width: 90%;
+        padding-left: 20px;
+    }
+    &__section{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px;
+        border-bottom: 1px solid $iconBackground;
+        &--fav{
+            padding: 0%;
+            border: none;
+            font-size: 15px;
+        }
+        &--see{
+            padding: 0%;
+            border: none;
+            font-size: 15px;
+            color: $primary;
+        }
+    }
+
+    &__icon{
+        padding-top: 10px;
+        position: relative;
+        &--home{
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        &--home2{
+            position: absolute;
+            top: 17px;
+            left: 18px;
+        }
+        &--add{
+            position: absolute;
+            top: 30px;
+            right: 20px;
+        }
+        &--add2{
+            position: absolute;
+            top: 21px;
+            right: 30px;
+        }
+    }
+}
+h6{
+    padding-left: 12px;
+    font-size: 17px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
