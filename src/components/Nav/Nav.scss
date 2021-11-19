@@ -1,0 +1,12 @@
+@use "../../styles/partials/_mixins.scss" as *;
+@use "../../styles/partials/_variables.scss" as *;
+
+.nav {
+  background-color: $dark-blue;
+  height: 64px;
+}
+
+.logo {
+  max-width: 40px;
+  max-height: 40px;
+}
