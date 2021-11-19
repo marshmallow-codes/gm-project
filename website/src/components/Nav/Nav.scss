@@ -16,6 +16,10 @@
   &__item {
     margin-right: 1rem;
   }
+  &__link {
+    text-decoration: none;
+    color: $white;
+  }
 }
 
 .logo {

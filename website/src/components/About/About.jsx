@@ -6,7 +6,7 @@ import phonePrototype from "../../assets/images/X - 3.png";
 
 function About() {
   return (
-    <article className="about">
+    <article id="about" className="about">
       <div className="inline">
         <div className="about__content">
           <h2 className="about__title">About</h2>

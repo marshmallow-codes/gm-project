@@ -6,9 +6,8 @@ function Nav() {
     <header className="nav">
       <div className="container container--nav">
         <ul className="nav__items">
-          <li className="nav__item">about</li>
-          <li className="nav__item">mission</li>
-          <li className="nav__item">contact</li>
+          <li className="nav__item"><a className="nav__link" href="#about">about</a></li>
+          <li className="nav__item"><a className="nav__link" href="#contact">contact</a></li>
         </ul>
         <h2 className="nav__title">
           <span className="highlight">ev</span>olve
