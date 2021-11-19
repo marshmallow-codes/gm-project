@@ -11,5 +11,5 @@ We are committed to building an application that facilitates the transport exper
 - Marat
 ### Developers
 - Akshay Singh @thornebanks
-- Gabrielle Lamarche @marshmallowcodes
+- Gabrielle Lamarche @marshmallow-codes
 
