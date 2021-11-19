@@ -6,7 +6,7 @@ function Nav() {
   return (
     <header className="nav">
       <div className="container container--nav">
-        <h2 className="evolve-title"><span className="highlight">e v</span>olve</h2>
+        <h2 className="evolve-title"><span className="highlight">ev</span>olve</h2>
       </div>
     </header>
   );
