@@ -1,3 +1,4 @@
+import "./styles/partials/_typography.scss";
 import Nav from "./components/Nav";
 import "./App.scss";
 

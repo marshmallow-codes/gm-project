@@ -1,8 +1,9 @@
+@use "./styles/partials/_typography.scss" as *;
 @use "./styles/partials/_variables.scss" as *;
 @use "./styles/partials/_mixins.scss" as *;
 
 body {
-  @include body;
+  font-family: Overpass, sans-serif;
 }
 
 .container {
