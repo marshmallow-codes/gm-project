@@ -1,0 +1,17 @@
+
+.map{
+    position: relative;
+
+    &__area{
+        width: 80%;
+    }
+
+    &__person{
+        position: absolute;
+        right: 200px;
+        top: 113px;
+    }
+}
+
+
+
