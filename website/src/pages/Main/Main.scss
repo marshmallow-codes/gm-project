@@ -1,0 +1,63 @@
+@use "../../styles/partials/_variables.scss" as *;
+
+.main {
+  background: linear-gradient($primary, $secondary);
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.container--main {
+  flex-direction: column;
+}
+
+.about {
+  margin-bottom: 300px;
+  &__text {
+    width: 75%;
+  }
+}
+
+.contact {
+  margin-bottom: 100px;
+  width: 100%;
+  & * {
+    border: none;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+  &__label {
+    margin-bottom: 0.5rem;
+  }
+  &__field {
+    border-radius: $border-default;
+    height: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+  }
+  &__btn {
+    border-radius: $border-default;
+    min-height: 2rem;
+    width: 25%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: $primary;
+    color: $white;
+    align-self: center;
+  }
+}
+
+.download-icon {
+  max-width: 150px;
+}
+
+.inline {
+  display: flex;
+}
+
+.prototype {
+  max-height: 400px;
+}

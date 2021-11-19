@@ -1,0 +1,28 @@
+@use "../../styles/partials/_mixins.scss" as *;
+@use "../../styles/partials/_variables.scss" as *;
+
+.nav {
+  background-color: $primary;
+  height: 64px;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  &__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  &__item {
+    margin-right: 1rem;
+  }
+  &__link {
+    text-decoration: none;
+    color: $white;
+  }
+}
+
+.logo {
+  max-width: 40px;
+  max-height: 40px;
+}
